@@ -1,0 +1,69 @@
+:root {
+  --name-color: #5288cc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/pexels-fauxels-3183150.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  height: max-content;
+  width: 100vw;
+}
+
+.members {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 50px 0 50px 0;
+  background: transparent;
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.CEO {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+.profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.name {
+  color: var(--name-color);
+  font-weight: 800;
+  font-size: 18px;
+}
+.designation {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+.special {
+  color: #fff;
+}
+.pad {
+  padding: 5px;
+}
+.mgmt {
+  color: crimson;
+}

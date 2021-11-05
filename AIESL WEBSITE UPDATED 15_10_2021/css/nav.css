@@ -1,0 +1,115 @@
+.header {
+  position: fixed;
+  top: 0;
+  padding: 5vh;
+  width: 100vw;
+  height: 15vh;
+  z-index: 1;
+
+  background: linear-gradient(
+    135deg,
+    rgb(255, 255, 255),
+    rgba(86, 86, 177, 0.884)
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.548);
+  color: white;
+}
+.logo-text {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  height: max-content;
+  background-color: transparent;
+}
+.logo-text h2 {
+  color: #030095;
+  padding: 2vh;
+  font-weight: bold;
+}
+.logo-text img {
+  border-radius: 50%;
+}
+.car {
+  color: #030095;
+}
+.tabs {
+  font-size: 15px;
+  height: 10vh;
+  width: 50vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.links:hover {
+  color: rgb(6, 6, 105);
+}
+.tabs ul {
+  display: flex;
+  list-style: none;
+}
+.tabs ul li {
+  padding: 15px;
+}
+.sub-menu {
+  display: none;
+}
+.submenu2 {
+  display: none;
+}
+.hover:hover .submenu2 {
+  position: absolute;
+  display: block;
+  margin-top: -48px;
+  margin-left: 182px;
+}
+.tabs ul li:hover .sub-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: rgb(86, 86, 177);
+}
+.tabs ul li:hover .sub-menu ul {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.685),
+    rgba(86, 86, 177, 0.884)
+  ); */
+  background: rgb(86, 86, 177);
+
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.63);
+  margin-top: 10px;
+}
+.sub-menu ul li:hover {
+  background-color: rgb(4, 31, 105);
+}
+.sub-menu ul li:hover a {
+  color: rgba(245, 222, 179, 0.479);
+}
+.sub-menu ul li {
+  border-bottom: 0.5px solid white;
+}
+
+.submenu3 {
+  display: none;
+}
+.hover:hover .submenu3 {
+  position: absolute;
+  display: block;
+  margin-top: -48px;
+  margin-left: 80px;
+}

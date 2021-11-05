@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: poppins;
+}
+
+body {
+  background: linear-gradient(
+      125deg,
+      hsla(0, 0%, 0%, 0.282),
+      hsla(0, 0%, 0%, 0.608)
+    ),
+    url(../images/a330.png);
+  background-attachment: fixed;
+  position: absolute;
+  top: 15vh;
+  padding: 50px;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+}
+td {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+tr {
+  padding: 10px;
+}
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.876);
+  border-collapse: collapse;
+  background-color: #3636418c;
+}
+table {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.781);
+}
